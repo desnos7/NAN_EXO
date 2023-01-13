@@ -1,17 +1,32 @@
-git add est la première commande d'une chaîne d'opérations qui indique à Git d' enregistrer
-git-commit permet d'Enregistrer les modifications dans le dépôt avec le message de validation décrivant la modifications
-git push permet d'envoyer  des validations (commits) effectuées sur votre branche locale .
-git-branch  permet de creer des branches
-git checkout permert de changer de branche
+
+
+
+
+
 
 // git status
 permet de Vérifier l’état des fichiers
 
-Valider les modifications
+git add est la première commande d'une chaîne d'opérations qui indique à Git d' enregistrer
+
+
 $ git commit –m « Mon premier commit»
+valider les modifications
 La commande «commit» est faite pour valider ceux qui a été
-indexés avec «git add». Pas d’indexe pas de validation.
+indexés avec «git add». 
 Après l’option –m est suivi d’un commentaire de l’utilisateur
 décrivant ce qui a été accompli et le fichier est ajouté au
-répertoire Git/dépôt (local) mais pas encore sur le dépôt
+répertoire Git/dépôt  mais pas encore sur le dépôt
 distant.
+git push va lui permettre d'envoyer  des validations (commits) effectuées sur votre branche locale .
+
+$ git pull
+Récupérer et tirer depuis des dépôts distants
+La commande «pull» permet de mettre à jour votre dépôt
+local des dernières validations (modifications des fichiers).
+
+$git-branch  permet de creer des branches
+
+$git checkout permert de changer de branche
+$ git checkout master
+Retourner sur la branche principale
