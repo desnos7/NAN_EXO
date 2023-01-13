@@ -1,0 +1,5 @@
+git add est la première commande d'une chaîne d'opérations qui indique à Git d' enregistrer
+git-commit permet d'Enregistrer les modifications dans le dépôt avec le message de validation décrivant la modifications
+git push permet d'envoyer  des validations (commits) effectuées sur votre branche locale .
+git-branch  permet de creer des branches
+git checkout permert de changer de branche
