@@ -3,3 +3,15 @@ git-commit permet d'Enregistrer les modifications dans le dépôt avec le messag
 git push permet d'envoyer  des validations (commits) effectuées sur votre branche locale .
 git-branch  permet de creer des branches
 git checkout permert de changer de branche
+
+// git status
+permet de Vérifier l’état des fichiers
+
+Valider les modifications
+$ git commit –m « Mon premier commit»
+La commande «commit» est faite pour valider ceux qui a été
+indexés avec «git add». Pas d’indexe pas de validation.
+Après l’option –m est suivi d’un commentaire de l’utilisateur
+décrivant ce qui a été accompli et le fichier est ajouté au
+répertoire Git/dépôt (local) mais pas encore sur le dépôt
+distant.
